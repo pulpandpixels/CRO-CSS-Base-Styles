@@ -3,15 +3,25 @@
 
 *, :after, :before {-webkit-box-sizing: border-box; box-sizing: border-box;}
 html {font-size: 62.5%; overflow-x: hidden;}
-body {
-    background: #fff;
-    color: #000;
-    direction: ltr;
-    font-family: Roboto,Arial,sans-serif;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: normal;
-    overflow-x: hidden;
-    text-align: left;
-}
+body {background: #fff; color: #000; direction: ltr; 
+    font-family: Roboto,Arial,sans-serif; font-size: 1.6rem; font-weight: 400;
+    line-height: normal; overflow-x: hidden; text-align: left;}
 a {color: #002d62; display: inline-block; font-weight: 500; text-decoration: none;}
+
+label {display: block;margin: 0 0 1rem}
+label p {display: inline-block; margin: 0}
+.dropdown-filter__dropdown label {margin: 0}
+input[type=text], input[type=tel], input[type=email], input[type=url], input[type=password], select, textarea {
+    background: #fff;
+    border: .1rem solid #ccc;
+    display: block;
+    font-family: Roboto, Arial, sans-serif;
+    padding: 1rem;
+    width: 100%
+}
+input[type=text]:hover, input[type=tel]:hover, input[type=email]:hover, input[type=url]:hover, input[type=password]:hover, select:hover, textarea:hover {
+    border-color: #666
+}
+input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=url]:focus, input[type=password]:focus, select:focus, textarea:focus {
+    border-color: #002d62
+}
