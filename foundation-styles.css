@@ -25,3 +25,9 @@ input[type=text]:hover, input[type=tel]:hover, input[type=email]:hover, input[ty
 input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=url]:focus, input[type=password]:focus, select:focus, textarea:focus {
     border-color: #002d62
 }
+button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
