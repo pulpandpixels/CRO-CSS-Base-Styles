@@ -7,6 +7,23 @@ body {background: #fff; color: #000; direction: ltr;
     font-family: Roboto,Arial,sans-serif; font-size: 1.6rem; font-weight: 400;
     line-height: normal; overflow-x: hidden; text-align: left;}
 a {color: #002d62; display: inline-block; font-weight: 500; text-decoration: none;}
+article, aside, footer, header, nav, section {display: block}
+figcaption, figure, main {
+    display: block
+}
+figure {
+    margin: 1em 40px
+}
+hr {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
 
 /* FORM STYLES */
 .form__body {background: rgba(0,0,0,.03); padding: 3rem;}
