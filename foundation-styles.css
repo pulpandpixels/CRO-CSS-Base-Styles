@@ -9,7 +9,7 @@ body {background: #fff; color: #000; direction: ltr;
 a {color: #002d62; display: inline-block; font-weight: 500; text-decoration: none;}
 
 /* FORM STYLES */
-.form__body {background: rgba(0,0,0,.03); padding: 0 3rem 3rem 3rem;}
+.form__body {background: rgba(0,0,0,.03); padding: 3rem;}
 label {display: block;margin: 0 0 1rem}
 label p {display: inline-block; margin: 0}
 .dropdown-filter__dropdown label {margin: 0}
